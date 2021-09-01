@@ -169,7 +169,7 @@ main {
   font-size: 6rem;
   font-weight: bold;
 }
-.btn {
+.button {
   text-transform: uppercase;
   background: transparent;
   color: var(--clr-black);
@@ -184,7 +184,7 @@ main {
   border-radius: var(--radius);
   margin: 0.5rem;
 }
-.btn:hover {
+.button:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
