@@ -18,3 +18,4 @@ buttons.forEach(function (button) {
         value.textContent = count;
     });
 });
+
