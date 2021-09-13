@@ -20,10 +20,13 @@
 </head>
 
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    <div>
         Interaja...
     </div>
     <script>
+        click.addEventListener('click', clicar)
+        click.addEventListener('mouseenter', entrar)
+        click.addEventListener('mouseout', sair)
         function clicar() {
             let click = document.getElementById('area')
             click.innerText = 'Clicou!'
